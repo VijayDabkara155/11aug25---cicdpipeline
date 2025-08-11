@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello from Jenkins!'
             }
         }
+                stage('Hello') {
+            steps {
+                echo 'Hello from Vijay!'
+            }
+        }
     }
 }
