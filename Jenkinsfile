@@ -8,10 +8,9 @@ pipeline {
             }
         }
     }
-    stage('Hello') {
-            steps {
-                echo 'Hello from Vijay!'
-            }
+    stage('Build') {
+        steps {
+            echo 'Vijay...'
         }
     }
 }
